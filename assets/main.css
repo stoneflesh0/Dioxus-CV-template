@@ -1,0 +1,126 @@
+*{
+  /*margin-left: 5px;*/
+  /*margin-right: 5px;*/
+  box-sizing: border-box;
+}
+
+#whole_page {
+  max-width: 1000px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 16;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0 auto;
+  /*background-color: #bbbbbb;*/
+}
+
+#portrait {
+  float: left;
+  margin-right: 20px;
+  width: 115px;
+  height: 115px;
+  filter: blur(0px); 
+  box-shadow: 0 8px 30px rgba(0,0,0,1.0);
+  border-radius: 20px;
+}
+
+#title_name {
+  font-size: 34px auto;
+  font-weight: bold;
+  margin-right: 120px;
+  text-align: center;
+}
+
+#title_contacts {
+  font-size: 20px;
+  /*font-weight: bold;*/
+  text-align: center;
+  margin-bottom: 25px;
+  margin-right: 130px;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  /* border: 3px solid rgba(105, 105, 105, 0.2); */
+  font-size: 0; /* Prevent whitespace gaps inline-block */
+  padding: 5px;
+  box-shadow: 0 2px 90px rgba(100, 100, 100, 0.3);
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Subtle gradient */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+#container div {
+  padding-bottom: 0;
+  font-size: 16;
+  line-height: 1.2;
+}
+
+#container ul li {
+  margin-bottom: 0.2em;
+}
+
+#left,
+#middle,
+#right,
+#farright {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden; /* Prevent layout breaks */
+  width: 31%;
+}
+
+.my_container {
+  display: grid;
+  /*justify-content: space-evenly;*/
+  /*align-items: center;*/
+  /*align-items: stretch;*/
+  height: 200px;
+}
+
+#bold_info {
+  margin-left: 30px;
+}
+
+#date_bottom_gap {
+  margin-bottom: -15px;
+}
+
+#work_experience_indent {
+  /*margin-left: 10px;*/
+  padding: 10px;
+  box-shadow: 0 2px 90px rgba(100, 100, 100, 0.3);
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Subtle gradient */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+#education {
+  padding: 10px;
+  box-shadow: 0 2px 90px rgba(100, 100, 100, 0.3);
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Subtle gradient */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+#additional {
+  padding: 10px;
+  box-shadow: 0 2px 90px rgba(100, 100, 100, 0.3);
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Subtle gradient */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+#professional_profile {
+  padding: 10px;
+  box-shadow: 0 2px 90px rgba(100, 100, 100, 0.3);
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Subtle gradient */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+#padding_additional_items {
+  padding-left: 20px;
+}
